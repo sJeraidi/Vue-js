@@ -1,5 +1,5 @@
 <template>
-  <h1>Films, Séries TV</h1>
+  <h1>Films, Séries , Animés</h1>
   <rou class="movies">
     <router-link :to="{name: 'movie', params : { id : movie.id}}" class="movie" v-for="(movie, idx) in movies" :key="idx">
       <div class="movie__image" :style="{backgroundImage: 'url(\'' + movie.image + '\')'}"/>
